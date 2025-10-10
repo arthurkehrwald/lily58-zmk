@@ -27,7 +27,7 @@
 &kp LEFT_GUI      &kp Q          &kp W            &kp F              &kp P            &kp B                                         &kp J       &kp L           &kp U       &kp DE_Y    &kp DE_U_UMLAUT  &kp DE_O_UMLAUT
 &kp LCTRL         &kp A          &kp R            &kp S              &kp T            &kp G                                         &kp M       &kp N           &kp E       &kp I       &kp O            &kp DE_APOS
 &kp LA(LEFT_ALT)  &kp DE_Z       &kp X            &kp C              &kp D            &kp V           &kp DE_A_UMLAUT    &kp DE_SZ  &kp K       &kp H           &kp COMMA   &kp DOT     &kp DE_MINUS     &mo 1
-                                                  &kp HOME           &kp DELETE       &kp LEFT_SHIFT  &kp TAB            &kp RET    &kp SPACE   &kp BACKSPACE   &kp END
+                                                  &kp HOME           &kp DELETE       &kp LEFT_SHIFT  &kp RETURN         &kp TAB    &kp SPACE   &kp BACKSPACE   &kp END
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
