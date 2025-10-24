@@ -23,11 +23,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC       &kp RIGHT_ALT  &kp PRINTSCREEN  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE                                 &kp C_PLAY_PAUSE  &kp C_PREVIOUS  &kp C_NEXT  &kp K_APPLICATION  &kp DE_ACUTE     &tog 1
-&kp LEFT_ALT  &kp Q          &kp W            &kp F              &kp P            &kp B                                      &kp J             &kp L           &kp U       &kp DE_Y           &kp DE_U_UMLAUT  &kp DE_O_UMLAUT
-&mo 2         &kp A          &kp R            &kp S              &kp T            &kp G                                      &kp M             &kp N           &kp E       &kp I              &kp O            &kp DE_APOS
-&kp LCTRL     &kp DE_Z       &kp X            &kp C              &kp D            &kp V       &kp DE_A_UMLAUT    &kp DE_SZ   &kp K             &kp H           &kp COMMA   &kp DOT            &kp DE_MINUS     &kp RIGHT_GUI
-                                              &kp HOME           &kp DELETE       &kp SPACE   &kp TAB            &kp RETURN  &kp RIGHT_SHIFT   &kp BACKSPACE   &kp END
+&kp ESC       &kp RIGHT_ALT  &kp PRINTSCREEN  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE                                    &kp C_PLAY_PAUSE  &kp C_PREVIOUS  &kp C_NEXT  &kp K_APPLICATION  &kp DE_ACUTE     &tog 1
+&kp LEFT_ALT  &kp Q          &kp W            &kp F              &kp P            &kp B                                         &kp J             &kp L           &kp U       &kp DE_Y           &kp DE_U_UMLAUT  &kp DE_O_UMLAUT
+&mo 2         &kp A          &kp R            &kp S              &kp T            &kp G                                         &kp M             &kp N           &kp E       &kp I              &kp O            &kp DE_APOS
+&kp LCTRL     &kp DE_Z       &kp X            &kp C              &kp D            &kp V           &kp DE_A_UMLAUT    &kp DE_SZ  &kp K             &kp H           &kp COMMA   &kp DOT            &kp DE_MINUS     &kp RIGHT_GUI
+                                              &kp HOME           &kp DELETE       &kp LEFT_SHIFT  &kp ENTER          &kp TAB    &kp SPACE         &kp BACKSPACE   &kp END
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
