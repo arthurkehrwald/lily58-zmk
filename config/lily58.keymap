@@ -10,6 +10,17 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    behaviors {
+        morph_quotes: morph_quotes {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MORPH_QUOTES";
+            bindings = <&kp DE_APOS>, <&kp DE_DOUBLE_QUOTES>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -25,7 +36,7 @@
             bindings = <
 &kp ESC       &kp RIGHT_ALT  &kp PRINTSCREEN  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE                                    &kp C_PLAY_PAUSE  &kp C_PREVIOUS  &kp C_NEXT  &kp K_APPLICATION  &kp DE_ACUTE     &tog 1
 &kp LEFT_ALT  &kp Q          &kp W            &kp F              &kp P            &kp B                                         &kp J             &kp L           &kp U       &kp DE_Y           &kp DE_U_UMLAUT  &kp DE_O_UMLAUT
-&mo 2         &kp A          &kp R            &kp S              &kp T            &kp G                                         &kp M             &kp N           &kp E       &kp I              &kp O            &kp DE_APOS
+&mo 2         &kp A          &kp R            &kp S              &kp T            &kp G                                         &kp M             &kp N           &kp E       &kp I              &kp O            &morph_quotes
 &kp LCTRL     &kp DE_Z       &kp X            &kp C              &kp D            &kp V           &kp DE_A_UMLAUT    &kp DE_SZ  &kp K             &kp H           &kp COMMA   &kp DOT            &kp DE_MINUS     &kp RIGHT_GUI
                                               &kp HOME           &kp DELETE       &kp LEFT_SHIFT  &kp ENTER          &kp TAB    &kp SPACE         &kp BACKSPACE   &kp END
             >;
@@ -57,7 +68,7 @@
             bindings = <
 &kp F1  &kp F2        &kp F3         &kp F4       &kp F5       &kp F6                                      &kp F7       &kp F8       &kp F9        &kp F10       &kp F11       &kp F12
 &trans  &kp DE_AT     &kp DE_DOLLAR  &kp DE_LBRC  &kp DE_RBRC  &kp DE_PIPE                                 &kp DE_PLUS  &kp DE_N7    &kp DE_N8     &kp DE_N9     &kp DE_ASTRK  &kp DE_CARET
-&trans  &kp DE_HASH   &kp DE_EURO    &kp DE_LPAR  &kp DE_RPAR  &kp DE_BSLH                                 &kp MINUS    &kp DE_N4    &kp DE_N5     &kp DE_N6     &kp DE_SLASH  &kp DE_DOUBLE_QUOTES
+&trans  &kp DE_HASH   &kp DE_EURO    &kp DE_LPAR  &kp DE_RPAR  &kp DE_BSLH                                 &kp MINUS    &kp DE_N4    &kp DE_N5     &kp DE_N6     &kp DE_SLASH  &kp RIGHT_SHIFT
 &trans  &kp DE_PRCNT  &kp DE_AMPS    &kp DE_LBKT  &kp DE_RBKT  &kp DE_TILDE  &kp PAGE_UP    &kp PAGE_DOWN  &kp DE_N0    &kp DE_N1    &kp DE_N2     &kp NUMBER_3  &kp DE_EQUAL  &kp DE_ACUTE
                                      &kp DE_LT    &kp DE_GT    &kp LEFT      &kp UP         &kp DOWN       &kp RIGHT    &kp DE_EXCL  &kp DE_QMARK
             >;
