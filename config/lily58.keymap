@@ -66,10 +66,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp F1  &kp F2        &kp F3         &kp F4       &kp F5       &kp F6                                      &kp F7       &kp F8       &kp F9        &kp F10       &kp F11       &kp F12
-&trans  &kp DE_AT     &kp DE_DOLLAR  &kp DE_LBRC  &kp DE_RBRC  &kp DE_PIPE                                 &kp DE_PLUS  &kp DE_N7    &kp DE_N8     &kp DE_N9     &kp DE_ASTRK  &kp DE_CARET
-&trans  &kp DE_HASH   &kp DE_EURO    &kp DE_LPAR  &kp DE_RPAR  &kp DE_BSLH                                 &kp MINUS    &kp DE_N4    &kp DE_N5     &kp DE_N6     &kp DE_SLASH  &kp RIGHT_SHIFT
-&trans  &kp DE_PRCNT  &kp DE_AMPS    &kp DE_LBKT  &kp DE_RBKT  &kp DE_TILDE  &kp PAGE_UP    &kp PAGE_DOWN  &kp DE_N0    &kp DE_N1    &kp DE_N2     &kp NUMBER_3  &kp DE_EQUAL  &kp DE_ACUTE
+&kp F1  &kp F2        &kp F3         &kp F4       &kp F5       &kp F6                                      &kp F7       &kp F8       &kp F9        &kp F10    &kp F11       &kp F12
+&trans  &kp DE_AT     &kp DE_DOLLAR  &kp DE_LBRC  &kp DE_RBRC  &kp DE_PIPE                                 &kp DE_PLUS  &kp KP_N7    &kp KP_N8     &kp KP_N9  &kp DE_ASTRK  &kp DE_CARET
+&trans  &kp DE_HASH   &kp DE_EURO    &kp DE_LPAR  &kp DE_RPAR  &kp DE_BSLH                                 &kp MINUS    &kp KP_N4    &kp KP_N5     &kp KP_N6  &kp DE_SLASH  &kp RIGHT_SHIFT
+&trans  &kp DE_PRCNT  &kp DE_AMPS    &kp DE_LBKT  &kp DE_RBKT  &kp DE_TILDE  &kp PAGE_UP    &kp PAGE_DOWN  &kp KP_N0    &kp KP_N1    &kp KP_N2     &kp KP_N3  &kp DE_EQUAL  &kp DE_ACUTE
                                      &kp DE_LT    &kp DE_GT    &kp LEFT      &kp UP         &kp DOWN       &kp RIGHT    &kp DE_EXCL  &kp DE_QMARK
             >;
 
