@@ -27,6 +27,25 @@
         combo_numlock {
             bindings = <&kp KP_NUMLOCK>;
             key-positions = <42 43>;
+            layers = <0>;
+        };
+
+        combo_a_umlaut {
+            bindings = <&kp DE_A_UMLAUT>;
+            key-positions = <25 32>;
+            layers = <0>;
+        };
+
+        combo_o_umlaut {
+            bindings = <&kp DE_O_UMLAUT>;
+            key-positions = <32 34>;
+            layers = <0>;
+        };
+
+        combo_u_umlaut {
+            bindings = <&kp DE_U_UMLAUT>;
+            key-positions = <32 20>;
+            layers = <0>;
         };
     };
 
