@@ -32,19 +32,19 @@
 
         combo_a_umlaut {
             bindings = <&kp DE_A_UMLAUT>;
-            key-positions = <25 32>;
+            key-positions = <25 55>;
             layers = <0>;
         };
 
         combo_o_umlaut {
             bindings = <&kp DE_O_UMLAUT>;
-            key-positions = <32 34>;
+            key-positions = <34 55>;
             layers = <0>;
         };
 
         combo_u_umlaut {
             bindings = <&kp DE_U_UMLAUT>;
-            key-positions = <32 20>;
+            key-positions = <20 55>;
             layers = <0>;
         };
     };
