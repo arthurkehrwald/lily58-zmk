@@ -32,20 +32,25 @@
 
         combo_a_umlaut {
             bindings = <&kp DE_A_UMLAUT>;
-            key-positions = <25 47>;
+            key-positions = <25 54>;
             layers = <0>;
         };
 
         combo_o_umlaut {
             bindings = <&kp DE_O_UMLAUT>;
-            key-positions = <34 47>;
+            key-positions = <34 54>;
             layers = <0>;
         };
 
         combo_u_umlaut {
             bindings = <&kp DE_U_UMLAUT>;
-            key-positions = <20 47>;
+            key-positions = <20 54>;
             layers = <0>;
+        };
+
+        combo_sharp_s {
+            bindings = <&kp DE_SHARP_S>;
+            key-positions = <27 54>;
         };
     };
 
