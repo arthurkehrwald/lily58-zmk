@@ -7,6 +7,7 @@
 #include "keys_de.h"
 #include "keys_fr.h"
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 / {
@@ -51,6 +52,16 @@
         combo_sharp_s {
             bindings = <&kp DE_SHARP_S>;
             key-positions = <27 54>;
+        };
+
+        combo_bt_nxt {
+            bindings = <&bt BT_NXT>;
+            key-positions = <36 12 1>;
+        };
+
+        combo_bt_clear {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <0 12 36>;
         };
     };
 
